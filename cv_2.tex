@@ -1,0 +1,181 @@
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin,10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%\makeatletter
+%\def\@classoptionslist{}
+%\makeatother
+%\usepackage{geometry}
+%\geometry{vmargin=1cm}%top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm}
+\usepackage{anysize}
+\marginsize{1cm}{1cm}{4em}{6pt}
+\usepackage{enumitem}
+\setitemize{itemsep=0pt, partopsep=0pt, parsep=0pt, topsep=0pt}
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\setlength{\textwidth}{5.9in} % Text width of the document
+\linespread{1.1}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Wei Xu} % Your name at the top
+%\large\bf Wei Xu
+%\hline
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+%\moveleft.5\hoffset\centerline{\\No.10 Xi Tu Cheng Road, Beijing, China} % Your address
+%\moveleft.5\hoffset\centerline{ginues109@gmail.com}
+%\moveleft.5\hoffset\centerline{(+86) 18810529095}
+\vskip-1.5em
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\section{CONTACT \\ INFORMATION}
+\begin{tabular}{ll}
+\leftmargini=4mm
+Room 359, Student Apartment 6& Mobile:(+86)188-1052-9095\\
+No.10 Xi Tu Cheng Road & E-mail: \href{mailto:ginues109@gmail.com}{ginues109@gmail.com}\\
+Beijing, 100876 China & Website: \url{http://wei-xu.github.io/}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{OBJECTIVE}
+
+%A position in the field of computers with special interests in business applications programming, information processing, and management systems.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+{\bf Beijing University of Posts and Telecommunications (BUPT)} \hfill Aug. 2011 - Present\\
+{\sl B.Eng.} Communication Engineering, expected July 2015
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+\leftmargini=4mm
+{\bf Internship in Baidu, Inc.} \hfill Sept. 2014 - Present \\
+\textit{R\&D in Music Department}\\
+My duties include designing and optimizing singer recommendation system.
+
+\begin{itemize}  % Reduce space between items
+\item Practice in Hadoop Streaming and MapReduce rewriting
+\item Data mining in Python
+\item Applied machine learning algorithms such as Collaborative Filtering for recommendation%{\sl k}-NN and {\sl k}-means
+%\item Used Collaborative Filtering for recommendation
+\end{itemize}
+
+{\bf Research on Reconfigurable Processors} \hfill Jul. - Oct. 2014 \\
+\textit{Institute of Microelectronics, Tsinghua University}\\
+I did research on the performance of reconfigurable processors on cloud platforms at Research Center for Mobile Computing. My job is to design suitable configurations for reconfigurable processors and to distribute jobs using Hadoop framwork on clusters consisting of reconfigurable processors to achieve higher performance.
+\begin{itemize}
+\item Designed process of parallel computing
+\item System simulation in C language
+\end{itemize}
+
+{\bf Research on Machine Learning} \hfill Mar. - Jul. 2014 \\
+\textit{Future Network Theory and Application Laboratory, BUPT}
+\begin{itemize}
+\item Studied the algorithms of neural networks including Developmental Networks and Echo State Networks
+\item Neural networks implementation and evaluation
+\end{itemize}
+
+{\bf Android Application Development} \hfill May 2013 - Apr. 2014 \\
+App Name: \textit{Campus Homework Assistant}
+\begin{itemize}
+\item Developed an application on Android that helps students check homework based on their classes and remind them to finish their homework.
+\item Developed with Android SDK, MySQL, Java
+\item Applied network programming and HTTP protocol
+\end{itemize}
+
+{\bf Battle City Game Development} \hfill Aug. 2012 \\
+\textit{Curriculum Design}\\
+I wrote a simple Battle City game in C++ in Win32 console.
+\begin{itemize}
+\item C++ multithreading
+\item The enemy has simple AI. The more enemies are destroyed, the more difficult the game becomes.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{COMPUTER \\ SKILLS}
+\begin{tabular}{rl}
+{\sl Languages \& Software:}
+& C/C++, Java, Python, HTML, Hadoop, \LaTeX \\
+{\sl Operating Systems:} & Linux
+\end{tabular}
+%{\sl languages:}C/C++, Java, Python, Linux, Android, HTML, Computer Networks, \LaTex\\
+
+%\begin{tabular}{rl}
+%{\sl Language \& Software}
+%& C/C++, Java, Python, HTML, \LaTeX\\
+%%& \\
+%{\sl Operating Systems}
+%& Linux \\
+%%& \\
+%{\sl Other Skills}
+%& Hadoop, Android, Computer Networks \\
+%%& \\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{AWARDS}
+\begin{itemize}\itemsep -12pt
+    \item Honorable Prize in Mathematical Contest in Modeling {\hfill 2014}\\
+    \item 3rd Prize Scholarships {\hfill 2013}\\
+
+    \item 3rd Prize in College Physics Competition, Beijing {\hfill 2012}\\
+    \item CCTV Star of Outlook English Talent Competition, Silver Award (Top 16, Beijing){\hfill 2011}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{ACTIVITIES}
+\begin{itemize}\itemsep -12pt
+%Elected {\it Sports Chairman} \\
+\item Worked as a volunteer in {\it The Former Residence of Soong ching ling} (3 hours per week){\hfill 2012}\\
+\item Taught as a volunteer in Xinxin primary school (2 hours per week) {\hfill  2012}\\
+\item Elected Vice President, {\it English Club} {\hfill 2011}\\
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
